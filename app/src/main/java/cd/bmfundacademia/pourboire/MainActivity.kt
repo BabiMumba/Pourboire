@@ -81,7 +81,7 @@ fun EditNumberField(modifier: Modifier = Modifier) {
     TextField(
         //value = 0
         value = amountInput.value,
-        onValueChange = {},
+        onValueChange = { amountInput.value = it },
         modifier = modifier
     )
 }
