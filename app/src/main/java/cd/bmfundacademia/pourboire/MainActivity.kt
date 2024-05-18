@@ -79,6 +79,7 @@ fun EditNumberField(modifier: Modifier = Modifier) {
     val amountInput = mutableStateOf("0")
 
     TextField(
+        //value = 0
         value = amountInput.value,
         onValueChange = {},
         modifier = modifier
